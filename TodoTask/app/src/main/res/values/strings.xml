@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TodoTask</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="task_list">ASSIGNED TASKS ARE LISTED HERE</string>
+    <string name="new_task">New Task</string>
+
+    <string name="popup_heading">TITLE</string>
+    <string name="popup_title">Title</string>
+    <string name="popup_content">Content</string>
+    <string name="popup_button_add">Add</string>
+    <string name="popup_button_cancel">Cancel</string>
+    <string name="update_task">Edit</string>
+    <string name="Edit">Edit</string>
+
+</resources>

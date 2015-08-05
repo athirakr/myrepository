@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/sixteen"
+    android:paddingRight="@dimen/sixteen"
+    android:paddingTop="@dimen/sixteen"
+    android:paddingBottom="@dimen/sixteen"
+    tools:context="${relativePackage}.${activityClass}">
+
+
+
+    <TextView
+        android:text="@string/task_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_toDoList"
+        android:textColor="@color/navy"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_toDoList"
+        android:id="@+id/relativeLayout"
+        android:layout_marginTop="@dimen/thirty">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/fab_image_button"
+            android:layout_width="@dimen/seventy"
+            android:layout_height="@dimen/seventy"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/fab_shape"
+            android:src="@drawable/abc_ic_clear_mtrl_alpha"
+            android:tint="@android:color/white"
+            android:contentDescription="dfdf"
+
+
+
+
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

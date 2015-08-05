@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/information_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/other_info_layer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/place_info_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/five"
+                android:text="Hello"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/address_info_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="From Android Studio"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/fourteen"
+                android:layout_marginBottom="@dimen/five"/>
+
+            <TextView
+                android:id="@+id/pincode_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0956735663"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/fourteen"
+                android:layout_marginBottom="@dimen/five"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
